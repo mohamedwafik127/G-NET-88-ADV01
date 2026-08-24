@@ -10,7 +10,30 @@
 
         #endregion
 
+        #region Question_02
 
+        //Q2: Write a generic class Container<T> with Add and Get methods.
+
+        //public class Container<T>
+        //{
+        //    private List<T> items = new List<T>();
+        //    public void Add(T item)
+        //    {
+        //        items.Add(item);
+        //    }
+        //    public T Get(int index)
+        //    {
+        //        if (index < 0 || index >= items.Count)
+        //        {
+        //            Console.WriteLine("Index is out of range.");
+        //            return default;
+        //        }
+        //        return items[index];
+        //    }
+        //}
+
+        #endregion
 
     }
 }
+
