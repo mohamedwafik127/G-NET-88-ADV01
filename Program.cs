@@ -92,6 +92,19 @@
 
         #endregion
 
+        #region Question_08
+
+        //8: What is the 'class' constraint? Write an example.
+
+        //The 'class' constraint is a constraint that can be applied to a generic type parameter to specify that the type must be a reference type.
+
+        //public static void PrintReference<T>(T value) where T : class
+        //{
+        //    Console.WriteLine(value);
+        //}
+
+        #endregion
+
     }
 }
 
