@@ -50,6 +50,31 @@
 
         #endregion
 
+        #region Question_05
+
+        //5: Write a generic method FindMax<T> that finds maximum value
+
+        //    public static T FindMax<T>(T[] array) where T : IComparable<T>
+        //    {
+        //        T max = array[0];
+
+        //        foreach (T index in array)
+        //        {
+        //            if (index.CompareTo(max) > 0)
+        //            {
+        //                max = index;
+        //            }
+        //        }
+
+        //        return max;
+        //    }
+
+        #endregion
     }
 }
+
+
+
+
+
 
