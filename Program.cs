@@ -118,7 +118,30 @@
 
         #endregion
 
-}
+        #region Question_10
+
+        //10:  What is the interface constraint? Write an example.
+
+        //An interface constraint specifies that the generic type must implement a particular interface.
+
+        //public static void PrintName<T>(T obj) where T : IName
+        //{
+        //    Console.WriteLine(obj.Name);
+        //}
+
+        //interface IName
+        //{
+        //    string Name { get; }
+        //}
+
+        //class Person : IName
+        //{
+        //    public string Name { get; set; }
+        //}
+
+        #endregion
+
+    }
 }
 
 
