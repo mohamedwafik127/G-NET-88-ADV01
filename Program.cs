@@ -34,6 +34,14 @@
 
         #endregion
 
+        #region Question_03
+
+        //3:What are multiple type parameters? Write Pair<TKey, TValue>.
+
+        //Multiple type parameters allow you to define a class or method that can work with multiple data types.
+
+        #endregion
+
     }
 }
 
