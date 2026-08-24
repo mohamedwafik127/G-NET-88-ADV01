@@ -141,6 +141,31 @@
 
         #endregion
 
+        #region Question_11
+
+        //11: What is the base class constraint? Write an example.
+
+        //A base class constraint specifies that the generic type must inherit from a particular base class.
+
+        //public static void ShowInfo<T>(T obj) where T : Animal
+        //{
+        //    obj.Speak();
+        //}
+
+        //class Animal
+        //{
+        //    public void Speak()
+        //    {
+        //        Console.WriteLine("Animal speaks");
+        //    }
+        //}
+
+        //class Dog : Animal
+        //{
+        //}
+
+        #endregion
+
     }
 }
 
