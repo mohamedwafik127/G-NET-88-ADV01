@@ -1,4 +1,6 @@
-﻿public class Program
+﻿using System.Xml.Linq;
+
+public class Program
 {
     public static void Main(string[] args)
     {
@@ -162,6 +164,20 @@
 
         //class Dog : Animal
         //{
+        //}
+
+        #endregion
+
+        #region Question_12
+
+        //12: How do you apply multiple constraints? Write an example. 
+
+        //You can apply multiple constraints by separating them with commas
+
+        //public static void CreateAndPrint<T>(T obj)
+        //    where T : Animal, IName, new()
+        //{
+        //    Console.WriteLine(obj.Name);
         //}
 
         #endregion
