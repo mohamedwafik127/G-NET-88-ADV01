@@ -78,6 +78,20 @@
         //A generic interface is an interface that allows you to define an interface with a placeholder for the data type it will operate on. This allows you to create an interface that can work with any data type and not being limited to a specific type.
 
         #endregion
+
+        #region Question_07
+
+        //7: What is the 'struct' constraint? Write an example.
+
+        //The 'struct' constraint is a constraint that can be applied to a generic type parameter to specify that the type must be a value type.
+
+        //public static void PrintValue<T>(T value) where T : struct
+        //{
+        //    Console.WriteLine(value);
+        //}
+
+        #endregion
+
     }
 }
 
