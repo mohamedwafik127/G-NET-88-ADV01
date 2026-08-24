@@ -105,7 +105,20 @@
 
         #endregion
 
-    }
+        #region Question_09
+
+        //9: What is the 'new()' constraint? Write an example.
+
+        //The 'new()' constraint is a constraint that can be applied to a generic type parameter to specify that the type must have a public parameterless constructor.
+
+        //public static T CreateObject<T>() where T : new()
+        //{
+        //    return new T();
+        //}
+
+        #endregion
+
+}
 }
 
 
